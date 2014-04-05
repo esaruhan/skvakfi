@@ -171,7 +171,7 @@ input, select, textarea {
 	position:relative;
 }
 .nav ul li a {
-	font-family:'open_sanslight';
+	font-family:'TrocchiRegular';
 	line-height:42px;
 	font-size:18px;
 	color:#fff;
@@ -525,7 +525,7 @@ input, select, textarea {
 	margin:20px 0 0;
 }
 .mainwrapper h2 {
-	font-family:'open_sanslight';
+	font-family:'TrocchiRegular';
 	border-bottom:1px solid #c8c6c2;
 	padding:0 0 15px;
 	margin:0 0 15px;
