@@ -8,16 +8,23 @@ mark, rp, rt, ruby, summary, time {
 /* Global properties */
 body {
 	background:#fff;
-	font:12px/18px Arial, Helvetica, sans-serif;
+	font:12px/18px Georgia, "Times New Roman", Times, serif;
 	color:#595959;
 }
  @font-face {
- font-family: 'TrocchiRegular';
- src: url('../fonts/trocchi-webfont.eot');
- src: url('../fonts/trocchi-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/trocchi-webfont.woff') format('woff'), url('../fonts/trocchi-webfont.ttf') format('truetype'), url('../fonts/trocchi-webfont.svg#TrocchiRegular') format('svg');
+ font-family: 'open_sanslight';
+ src: url('../fonts/OpenSans-Light-webfont.eot');
+ src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), 
+	  url('../fonts/OpenSans-Light-webfont.woff') format('woff'), 
+	  url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'), 
+	  url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
  font-weight: normal;
  font-style: normal;
 }
+
+
+
+
 html, body {
 	height:100%;
 	margin:0;
@@ -34,7 +41,7 @@ a:hover {
 }
 /* form defaults */
 input, select, textarea {
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:'open_sanslight';
 	font-size:1em;
 	vertical-align:middle;
 	font-weight:normal;
@@ -128,7 +135,7 @@ input, select, textarea {
 }
 .bismiallah {
 	background:url(../images/bisim.png) no-repeat center center;
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	height:47px;
 	width:232px;
 	margin:0 auto;
@@ -164,9 +171,9 @@ input, select, textarea {
 	position:relative;
 }
 .nav ul li a {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	line-height:42px;
-	font-size:14px;
+	font-size:18px;
 	color:#fff;
 	padding:0 22px;
 	display:block;
@@ -219,12 +226,12 @@ input, select, textarea {
 	overflow:hidden;
 }
 .menulowresu {
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:'open_sanslight';
 	text-align:center;
 }
 
 .numbercon {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	text-align:center;
 	color:#2e1308;
 	font-size:26px;
@@ -234,7 +241,7 @@ input, select, textarea {
 	float:left;
 }
 .bannertextcon strong {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	margin:10px 0 10px;
 	display:block;
 	color:#2e1308;
@@ -287,7 +294,7 @@ input, select, textarea {
 	padding:5px 0 !important;
 }
 .newslettertext {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	font-size:18px;
 	color:#2e1308;
 	line-height:56px;
@@ -518,7 +525,7 @@ input, select, textarea {
 	margin:20px 0 0;
 }
 .mainwrapper h2 {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	border-bottom:1px solid #c8c6c2;
 	padding:0 0 15px;
 	margin:0 0 15px;
@@ -555,7 +562,7 @@ input, select, textarea {
 	left:-20%;
 }
 .mainwrapper h3 {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	border-bottom:1px solid #c8c6c2;
 	padding:0 0 5px;
 	margin:0 0 15px;
@@ -1265,7 +1272,7 @@ right: 0;
 	margin:0 0 0 20px;
 }
 .portfolio ul li p {
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:'open_sanslight';
 	color:#535353;
 }
 .portfolio ul li a {
@@ -1281,13 +1288,13 @@ right: 0;
 	list-style:none;
 }
 .ulstyle05 li label {
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:'open_sanslight';
 	display:block;
 	line-height:40px;
 	list-style:none;
 }
 .ulstyle05 li label strong {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	color:#201f1f;
 	font-weight:normal;
 }
@@ -1306,7 +1313,7 @@ right: 0;
 	border:1px solid #c6c4c0;
 }
 .headingstyle05 {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	padding:0 0 15px;
 	margin:0 0 15px;
 	display:block;
@@ -1465,7 +1472,7 @@ right: 0;
 	width:97%;
 }
 .blog .blogheading {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	margin:0 0 20px;
 	display:block;
 	font-size:18px;
@@ -1565,7 +1572,7 @@ right: 0;
 	padding:0;
 	list-style:none;
 	font-size:16px;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	font-family:'open_sanslight';
 	font-weight:bold;
 }
 .left-col-list.f-size {
@@ -1589,7 +1596,7 @@ right: 0;
 	padding:10px 0;
 }
 .title5 {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	font-size:18px;
 	color:#2e1308;
 	font-weight:normal;
@@ -1612,7 +1619,7 @@ right: 0;
 	overflow:hidden;
 }
 .headingstyle10 {
-	font-family:TrocchiRegular;
+	font-family:'open_sanslight';
 	font-size:14px;
 }
 .memberheading {
